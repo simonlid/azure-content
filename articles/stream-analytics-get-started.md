@@ -38,6 +38,9 @@ This sample application requires an Azure Storage account or a Storage Emulator 
 4.	Specify both the Service Bus and the Storage account connection strings. The key names are **Microsoft.ServiceBus.ConnectionString** and **AzureStorageConnectionString**. The storage account connection string will be in the following format: 	
 
 		DefaultEndpointsProtocol=https;AccountName=<accountName>;AccountKey=<yourAccountKey>;
+		
+	The service bus connection string will be in the following format:
+		Endpoint=sb://<namespaceName>.servicebus.windows.net/;SharedAccessKeyName=<yourAccountKey>;
 5.	Build the solution.
 6.	Run the application from the bin folder.  The usage is as follows: 
 
